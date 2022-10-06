@@ -1,0 +1,25 @@
+{
+  "name": "modules",
+  "version": "1.0.0",
+  "description": "second homework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "start": "live-server dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikaKotliar/ajs-modules.git"
+  },
+  "author": "Nika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikaKotliar/ajs-modules/issues"
+  },
+  "homepage": "https://github.com/NikaKotliar/ajs-modules#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "live-server": "^1.2.2"
+  }
+}
